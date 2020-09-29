@@ -6,14 +6,11 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_registrarse.*
 import kotlinx.android.synthetic.main.activity_registrarse_tres.*
 
-class registrarseDos : AppCompatActivity() {
+class RegistrarseDos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registrarse_dos)
 
-        btnIrCompletaPerfil.setOnClickListener{
-            val intentT: Intent = Intent(this, registrarseTres::class.java)
-            startActivity(intentT)
-        }
+
     }
 }

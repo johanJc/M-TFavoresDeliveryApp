@@ -11,9 +11,6 @@ class Registrarse : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registrarse)
 
-        btnIrCorreo.setOnClickListener{
-            val intentD: Intent = Intent(this, registrarseDos::class.java)
-            startActivity(intentD)
-        }
+
     }
 }
